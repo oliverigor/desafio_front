@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../index.css";
+import LogoTwt from "../images/logo-twitter.svg";
 
 class Team extends Component {
   render() {
@@ -20,7 +21,16 @@ class Team extends Component {
                   </a>
                 </h6>
                 <h4>{this.props.team.role}</h4>
-                <h6>{this.props.team.tweet}</h6>
+                <div className="tweetbox">
+                  <h6>{"''" + this.props.team.tweet + "''"}</h6>
+                </div>
+                <div>
+                  <img
+                    className="logo-att"
+                    src={LogoTwt}
+                    style={{ background: "black" }}
+                  />
+                </div>
               </div>
             </div>
           </div>

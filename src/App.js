@@ -4,6 +4,7 @@ import "./App.css";
 import Team from "./components/team.js";
 import LogoSym from "./images/logo-symbol.svg";
 import LogoTyp from "./images/logo-type.svg";
+import LogoTwt from "./images/logo-twitter.svg";
 class App extends Component {
   constructor(props) {
     super(props);
@@ -43,6 +44,10 @@ class App extends Component {
               entrepreneurial by nature and live to make digital products and
               services that people love to use.
             </h3>
+          </div>
+          <div className="subtitle" style={{ opacity: "0.8" }}>
+            <img className="logo-att" src={LogoTwt} />
+            <h3>Latest tweets from our team</h3>
           </div>
           <div className="section">
             {this.state.data ? (
