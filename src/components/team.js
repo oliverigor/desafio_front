@@ -16,6 +16,7 @@ render(){
         <div className="text">
             <h3>{this.props.team.name}</h3>
             <h6>{this.props.team.role}</h6>
+            <h6>{this.props.team.tweet}</h6>
         </div>
     </div>
 
