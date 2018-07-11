@@ -1,3 +1,69 @@
 .App {
   text-align: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.Header {
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 1169px;
+  background-image: url("./images/BG.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.section {
+  position: relative;
+  margin-left: 5%;
+  display: block;
+  justify-content: center;
+}
+
+.navbar {
+  position: relative;
+  z-index: 1 !important;
+  background-color: #5d1eb2;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+}
+
+.logo-att {
+  margin-right: 8px;
+}
+
+.title {
+  position: relative;
+  z-index: 1 !important;
+  background-color: #5d1eb2;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 16px;
+}
+
+.subtitle {
+  position: relative;
+  z-index: 1 !important;
+  background-color: #5d1eb2;
+  color: white;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 16px;
+  padding-bottom: 5%;
+  width: 60%;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 100px;
+}
+
+.title h1 {
+  color: white;
 }
