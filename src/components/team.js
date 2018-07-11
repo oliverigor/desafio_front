@@ -14,8 +14,12 @@ class Team extends Component {
             <div className="content">
               <div className="text">
                 <h3>{this.props.team.name}</h3>
-                <h6>{this.props.team.twitter}</h6>
-                <h6>{this.props.team.role}</h6>
+                <h6>
+                  <a href={this.props.team.twitter}>
+                    {"@" + this.props.team.twitter.slice(20)}
+                  </a>
+                </h6>
+                <h4>{this.props.team.role}</h4>
                 <h6>{this.props.team.tweet}</h6>
               </div>
             </div>
