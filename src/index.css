@@ -35,8 +35,9 @@ h6 {
 }
 
 a {
+  font-family: "Proxima Nova";
   text-decoration: none;
-  color: #ffffff;
+  color: #656565;
   font-size: 20px;
   line-height: 23px;
   margin: 0px;

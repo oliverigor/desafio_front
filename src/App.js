@@ -48,17 +48,19 @@ class App extends Component {
             </h3>
           </div>
           <div className="subtitle">
-            <img className="logo-att" src={LogoTwt} />
-            <Link
-              to={{
-                pathname: "/timeline",
-                state: {
-                  team: this.state.data
-                }
-              }}
-            >
-              Latest tweets from our team
-            </Link>
+            <button className="btn-twt">
+              <img className="logo-att" src={LogoTwt} />
+              <Link
+                to={{
+                  pathname: "/timeline",
+                  state: {
+                    team: this.state.data
+                  }
+                }}
+              >
+                Latest tweets from our team
+              </Link>
+            </button>
           </div>
           <div className="section">
             {this.state.data ? (

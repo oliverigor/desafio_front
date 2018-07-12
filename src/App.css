@@ -5,6 +5,21 @@
   width: 100%;
 }
 
+.btn-twt {
+  border-radius: 30px;
+  border: none;
+  background-color: #5d1eb2;
+  padding: 10px 20px;
+  box-shadow: 0.1px 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.btn-twt a {
+  display: inline-block;
+  position: relative;
+  color: #ffffff;
+}
+
 .Header {
   z-index: 0;
   position: absolute;
@@ -108,8 +123,8 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .title h1 {
-    width: 250px;
-    font-size: 35px !important;
+    width: 260px;
+    font-size: 38px !important;
     padding-top: 80px !important;
   }
   .navbar {
@@ -123,6 +138,9 @@ h1 {
   }
   .logo-gone {
     display: none;
+  }
+  .subtitle {
+    width: 80%;
   }
   h3 {
     width: 100% !important;
@@ -179,5 +197,12 @@ h1 {
 
   .like p {
     font-size: 10px;
+  }
+
+  .btn-twt a {
+    font-size: 14px !important;
+  }
+  .btn-twt {
+    padding: 5px 15px !important;
   }
 }
