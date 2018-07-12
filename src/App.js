@@ -35,7 +35,7 @@ class App extends Component {
         <div>
           <div className="navbar">
             <img className="logo-att" src={LogoSym} />
-            <img src={LogoTyp} />
+            <img className="logo-gone" src={LogoTyp} />
           </div>
           <div className="title">
             <h1>Meet our team</h1>
@@ -57,7 +57,7 @@ class App extends Component {
                 }
               }}
             >
-              <h3>Latest tweets from our team</h3>
+              Latest tweets from our team
             </Link>
           </div>
           <div className="section">

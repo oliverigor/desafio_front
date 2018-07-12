@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import LogoTwt from "../images/logo-twitter.svg";
 import LogoSym from "../images/logo-symbol.svg";
 import LogoTyp from "../images/logo-type.svg";
-
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -39,13 +38,13 @@ class Timeline extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="App">
         <div className="Header" />
         <div>
           <div className="navbar">
             <Link to="/">
               <img className="logo-att" src={LogoSym} />
-              <img src={LogoTyp} />
+              <img className="logo-gone" src={LogoTyp} />
             </Link>
           </div>
           <div className="title">
