@@ -4,7 +4,6 @@ import Heart from "../images/heart.svg";
 
 class Team extends Component {
   render() {
-    console.log(this.props);
     return (
       <div className="temcard">
         <div className="card">

@@ -36,7 +36,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: #656565;
+  color: #ffffff;
 }
 
 .card {
@@ -54,17 +54,17 @@ a {
   background-color: #ffffff;
 }
 
-.like{
+.like {
   position: absolute;
   display: flex;
-  vertical-align:bottom;
+  vertical-align: bottom;
   padding-bottom: 18px;
   padding-top: 8px;
   right: 8%;
 }
 
-.like p{
-  margin:0px;
+.like p {
+  margin: 0px;
 }
 
 .temcard {

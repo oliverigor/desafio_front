@@ -107,3 +107,7 @@ h1 {
 .title h1 {
   color: white;
 }
+
+.timeline {
+  z-index: 2;
+}

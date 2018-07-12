@@ -1,10 +1,12 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Team from "./components/team.js";
 import LogoSym from "./images/logo-symbol.svg";
 import LogoTyp from "./images/logo-type.svg";
 import LogoTwt from "./images/logo-twitter.svg";
+import Timeline from "./components/timeline.js";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -14,8 +16,8 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
-    fetch(
+  async componentDidMount() {
+    await fetch(
       "https://gist.githubusercontent.com/kandebonfim/2efe731004c9311d1237e88a656a425f/raw/c3befc78feb7454f4cccb5308d38319ac77be71e/makers.json"
     )
       .then(response => response.json())
@@ -45,9 +47,18 @@ class App extends Component {
               services that people love to use.
             </h3>
           </div>
-          <div className="subtitle" style={{ opacity: "0.8" }}>
+          <div className="subtitle">
             <img className="logo-att" src={LogoTwt} />
-            <h3>Latest tweets from our team</h3>
+            <Link
+              to={{
+                pathname: "/timeline",
+                state: {
+                  team: this.state.data
+                }
+              }}
+            >
+              <h3>Latest tweets from our team</h3>
+            </Link>
           </div>
           <div className="section">
             {this.state.data ? (
