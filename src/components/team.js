@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../index.css";
-import LogoTwt from "../images/logo-twitter.svg";
+import Heart from "../images/heart.svg";
 
 class Team extends Component {
   render() {
@@ -24,12 +24,14 @@ class Team extends Component {
                 <div className="tweetbox">
                   <h6>{"''" + this.props.team.tweet + "''"}</h6>
                 </div>
-                <div>
+                <div className="like">
                   <img
                     className="logo-att"
-                    src={LogoTwt}
-                    style={{ background: "black" }}
+                    src={Heart}
+                    width={17}
+                    height={17}
                   />
+                  <p>1</p>
                 </div>
               </div>
             </div>
