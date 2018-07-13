@@ -4,7 +4,9 @@ Desafio Startae. Projeto criado e desenvolvido para a participacao em uma seleca
 
 ## Comecando
 
-Voces podem conferir uma demo do aplicativo funcional no seguinte link: [DesafioStartae](https://desafio-startae.surge.sh/).
+Voces podem conferir uma demo do aplicativo funcional no seguinte link:
+
+- [DesafioStartae](https://desafio-startae.surge.sh/)
 
 ### Requisitos
 
