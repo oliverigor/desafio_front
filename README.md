@@ -1,16 +1,16 @@
-# Project Title
+# Titulo do Projeto
 
 Desafio Startae. Projeto criado e desenvolvido para a participacao em uma selecao.
 
-## Getting Started
+## Comecando
 
 Voces podem conferir uma demo do aplicativo funcional no seguinte link: [DesafioStartae](desafio-startae.surge.sh).
 
-### Prerequisites
+### Requisitos
 
 Para rodar o sistema e necessario que tenha o npm ou a yarn instalados.
 
-### Installing
+### Instalando
 
 Apos clonar o repositorio execute o seguinte comando.
 
@@ -24,7 +24,7 @@ ou se voce usa npm:
 npm install
 ```
 
-## Deployment
+## Deploy local
 
 Logo apos a instalacao utilize o comando
 
@@ -40,22 +40,22 @@ yarn start
 
 Com isso o sistema comecara a rodar localmente, na porta (http://localhost:3000)
 
-## Built With
+## Criado com:
 
 - [React](https://reactjs.org/) - Biblioteca utilizada para o desafio
 - [React router](https://www.npmjs.com/package/react-router-dom) - Pacote utilizado para as rotas
 - [React VerticalTimeline](https://www.npmjs.com/package/react-vertical-timeline-component) - Pacote utilizado para o timeline
 - [Surge](https://surge.sh/) - Pacote para o deploy de sites estaticos utilizados.
 
-## Authors
+## Autor
 
 - **Igor de Oliveira**
 
-## License
+## Licenca
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## Aprendizados
 
 - Um aprendizado deste trabalho foi a trabalhar com o pacote de timeline.
 - Nao planejar antes de fazer um codigo, principalmente css pode te fazer perder muito tempo
